@@ -128,16 +128,15 @@ int main() {
     //Cidade 02
     printf("Cidade: %s \nCódigo: %s \nPopulação: %lu hab. \nÁrea: %.2f Km² \nPIB: R$ %.1f \nPontos Turísticos: %d \nDensidade Populacional: %.2f hab/km² \nPIB per capta: R$ %.2f \n\n", cidade_b02, codigo_b02, populacao_b02, km_area_b02, pib_b02, turistico_b02, densidade_b02, pib_capta_b02);
 
-    /*exemplo de exibição para comparação:
-    printf("**** **** **** C O M P A R A Ç Ã O **** **** ****");
+    /*printf("**** **** **** C O M P A R A Ç Ã O **** **** ****\n");
     printf("Carta: %s - Estado: %s, Código: %s, População: %lu\n",cidade_a01, estado_A, codigo_a01, populacao_a01);
     printf("Carta: %s - Estado: %s, Código: %s, População: %lu\n",cidade_b01, estado_B, codigo_b01, populacao_b01);
     if (populacao_a01 > populacao_b01){
         printf("Resultado: %s é a vencedora!\n", cidade_a01);
     } else{
         printf("Resultado: %s é a vencedora!", cidade_b01);
-    }
-    */
+    }*/
+    
 
     
     
