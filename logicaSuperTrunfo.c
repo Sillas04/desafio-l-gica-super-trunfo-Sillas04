@@ -149,7 +149,7 @@ int main() {
     switch (menu_compara) // Menu principal
     {
     case 1:
-        printf("\n-------- Escolha a carta para comparar a população! --------\n");
+        printf("\n-------- Escolha a carta para comparar a população! --------\n\n");
         printf("a - Carta: %s com Carta: %s\n", cidade_a01, cidade_b01); //Menu alternativo para população
         printf("b - Carta: %s com Carta: %s\n", cidade_a02, cidade_b02);        
         scanf("%d", &menu_compara_populacao);
@@ -174,9 +174,10 @@ int main() {
                     printf("Resultado: Carta %s é a vencedora!\n", cidade_b02);
                 }
             break;
-            }            
+            }
+    break;           
     case 2:
-        printf("-------- Escolha a carta para comparar a área! --------\n");
+        printf("-------- Escolha a carta para comparar a área! --------\n\n");
         printf("a - Carta: %s com Carta: %s\n", cidade_a01, cidade_b01); //Menu alternativo para área
         printf("b - Carta: %s com Carta: %s\n", cidade_a02, cidade_b02);        
         scanf("%d", &menu_compara_area);
@@ -202,8 +203,9 @@ int main() {
                 }
             break;
             }
+    break;
     case 3:
-        printf("-------- Escolha a carta para comparar o PIB! --------\n");
+        printf("-------- Escolha a carta para comparar o PIB! --------\n\n");
         printf("a - Carta: %s com Carta: %s\n", cidade_a01, cidade_b01); //Menu alternativo para PIB
         printf("b - Carta: %s com Carta: %s\n", cidade_a02, cidade_b02);
         
@@ -230,8 +232,9 @@ int main() {
                 }
             break;
             }
+    break;
     case 4:
-        printf("-------- Escolha a carta para comparar a Densidade Populacional! --------\n");
+        printf("-------- Escolha a carta para comparar a Densidade Populacional! --------\n\n");
         printf("a - Carta: %s com Carta: %s\n", cidade_a01, cidade_b01); //Menu alternativo para densidade
         printf("b - Carta: %s com Carta: %s\n", cidade_a02, cidade_b02);        
         scanf("%d", &menu_compara_densidade);
@@ -257,8 +260,9 @@ int main() {
                 }
             break;
             }
+    break;
     case 5:
-        printf("-------- Escolha a carta para comparar a PIB per capta! --------\n");
+        printf("-------- Escolha a carta para comparar a PIB per capta! --------\n\n");
         printf("a - Carta: %s com Carta: %s\n", cidade_a01, cidade_b01); //Menu alternativo para PIB per capta
         printf("b - Carta: %s com Carta: %s\n", cidade_a02, cidade_b02);        
         scanf("%d", &menu_compara_pib_capta);
@@ -284,6 +288,7 @@ int main() {
                 }
             break;
             }
+    break;
     default:
         printf("### Ação inválida ####");
     }
